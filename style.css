@@ -1,0 +1,82 @@
+
+.cv {
+	display:flex;
+	border : solid;
+}
+
+
+/*Partie de gauche*/
+
+.information {
+	display: flex;
+	background-color: grey;
+	flex-direction: column;
+	padding: 30px;
+	align-items: center;
+}
+
+.information img {
+	display: flex;
+	align-items: center;
+	clip-path: ellipse(50% 50%);
+}
+
+
+.title { 
+	color: orange;
+	text-align: center;
+ }
+
+ .info-left {
+ 	text-align: center;
+ 	color: white;
+ }
+
+ .loisirs {
+ 	color: white;
+ 	text-align: center;
+ }
+
+/* Partie de droite */
+
+ .pro {
+ 	display: flex;
+ 	flex-direction: column;
+ 	flex-grow: 1;
+ 	height: auto;
+ }
+
+.name {
+	color: red;
+	font-size: 30px;
+	text-align: center;
+}
+
+.description {
+	color: black;
+	font-size: 15px;
+}
+
+.info-right{
+	margin: 15px;
+}
+
+
+@media only screen and (max-width: 530px) {
+	.cv{
+	display: block; 
+	 }
+}
+ 	
+ /* Lien PDF */
+
+.download {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.download img {
+	width: 5%;
+}
